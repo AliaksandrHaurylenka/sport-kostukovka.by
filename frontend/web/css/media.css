@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*МЕДИАЗАПРОСЫ ДЛЯ РАЗЛИЧНЫХ РАСШИРЕНИЙ ЭКРАНА (АДАПТИВНЫЙ ДИЗАЙН)*/
+@import url("media1199.css");
+@import url("media991.css");
+@import url("media767.css");
+@import url("media640.css");
+@import url("media580.css");
+@import url("media480.css");
+@import url("media460.css");
+@import url("media392.css");
+@import url("media360.css");
+@import url("media320.css");
+

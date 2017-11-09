@@ -1,0 +1,63 @@
+@media screen  and (max-width: 1199px) {
+    /*ШАПКА*/
+    .header__logo {
+        background: url("/frontend/web/images/head.png") 50% 50% no-repeat;
+    }
+
+    /*ГЛАВНОЕ МЕНЮ*/
+    .header__nav .header__main-menu > li > a {
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 21px;
+    }
+    ul.header__icons {
+        margin-right: -1px;
+    }
+    .header__icons {
+        display: block;
+    }
+    .header__icons > li > a {
+        padding: 12px 3px;
+    }
+    .header__icons img {
+        opacity: 0.8;
+        width: 24px;
+    }
+
+    /*КОНТЕНТ*/
+    /*Левая колонка*/
+    .aside-left__my-nav {
+        font-size: 17px;
+    }
+
+    /*Основной контент*/
+    .main-content h1,
+    .date,
+    .aside-right>p {
+        font-size: 17px;
+    }
+    .main-content_info p {
+        font-size: 16px;
+    }
+
+    /*Правая колонка*/
+    /*ФУТЕР*/
+    footer ul.header__nav-main_menu > li > a,
+    .additional-menu a {
+        font-size: 15px;
+    }
+	
+	/*Расписание*/
+	.timetable h3 {
+		font-size: 20px;
+	}
+	.timetable p {
+		font-size: 16px;
+	}
+
+
+    /*Доска почета*/
+    .doskaDirector {
+        height: 40%;
+    }
+}

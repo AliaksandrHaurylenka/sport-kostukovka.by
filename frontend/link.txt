@@ -1,0 +1,16 @@
+﻿Полезные ссылки:
+1. https://github.com/hreitsma/yii2-simplemath-captcha - математическая капча;
+2. https://github.com/githubjeka/yii2-tutorial - Yii2 учебное руководство, мануал по созданию сайта на русском языке; (работаем в консоли от OpenServer);
+3. http://pro-cod.ru/ubiraem-frontendweb-yii2.html - убираем /frontend/web/ с url;
+4. https://github.com/newerton/yii2-fancybox;
+5. http://yiiframework.domain-na.me/doc/guide/2.0/ru - приятная документация;
+6. http://www.elisdn.ru - Дмитрий Елисеев блог прогера
+7. https://www.youtube.com/watch?v=IDxbWzUiPq4 - модальные окна
+8. https://кодер.укр/записи/yii2-внедрение-html-шаблона-gentelella-и-adminlte-для-cms-админки
+9. https://toster.ru/q/368500 - Как задать value для CKEditor Yii2?
+10. https://github.com/MihailDev/yii2-ckeditor
+11. https://github.com/vova07/yii2-imperavi-widget - Редактор текста
+12. http://mr-kos.ru/blog/post/22 - удаление расширений (в composser.json удаляем установленные расширения, сохраняемся, далее консоли вводим команду composer update и обновляемся - все расширения удалены)
+13. http://www.yiiframework.com/extension/yii2-ckeditor-cdn
+14. http://guide.yii2.org-info.by/zametka-chto-yii2-razrabotchik-hochet-skazat-verstalschiku-no-stesnyaetsya.html - классы для форм
+15. https://github.com/skeeks-semenov/yii2-assets-auto-compress - автоматическое сжатие кода

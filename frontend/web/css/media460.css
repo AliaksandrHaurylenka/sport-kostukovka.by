@@ -1,0 +1,9 @@
+@media screen and (max-width: 460px) {
+
+	/*Модальное окно ФУТБОЛ 2017*/
+    #modal_football th,
+    #modal_football td {
+        font-size: .8rem;
+    }
+
+}

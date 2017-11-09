@@ -1,0 +1,178 @@
+@media screen and (max-width: 480px) {
+    /*ШАПКА*/
+    /*КОНТЕНТ*/
+    /*Левое меню*/
+    .aside-left__my-nav {
+        font-size: 13px;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+    
+    .btn_modal-menu,
+    .btn_footer {
+        font-size: 1.2rem;
+    }
+
+    /*КОНТЕНТ*/
+    /*Основной контент*/
+    .main-content_info p {
+        font-size: 12px;
+    }
+    .main-content_info2 {
+        font-size: 0.7em;
+    }
+
+    /*ФУТЕР*/
+    .menu-footer > ul > li > a{
+        font-size: 13px;
+    }
+    .footer__baner img {
+        width: 100px;
+    }
+    .footer__rights {
+        font-size: 13px;
+    }
+    
+    /*Контент отделения*/
+    .imgDoskaPochota p {
+        font-size: 13px;
+        margin: 5px 0 0;
+    }
+    .infoDoskaPochota p {
+        font-size: 12px;
+    }
+    
+    /*Выпадающий блок Разряды*/
+    .linkSwiming > a ,
+    .drop-down_text span,
+    .drop-down_text p {
+        font-size: 13px;
+    }
+    .normativeSwiming td {
+        font-size: 5px;
+    }
+    
+    /*Контент Контакты*/
+    .phone p {
+        font-size: 16px;
+    }
+    .phone li {
+        font-size: 15px;
+    }
+    
+    /*Контент Услуги*/
+    .table.table-striped.service {
+        margin-bottom: 7px;
+    }
+    .table.table-striped.service tr:first-child td,
+    .table.table-striped.service td     {
+        font-size: 14px;
+    }
+    .titlebar {
+        font-size: 20px;
+        margin: 0 0 5px;
+    }
+    
+    /*Расписание*/
+    .timetable h3 {
+        font-size: 15px;
+        margin-bottom: 1px;
+    }
+    .timetable p {
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+
+
+
+    /*Костюковские Лужники*/
+    .history_blockquote {
+        font-size: 0.45em;
+        margin: 0;
+    }
+    .bregnev {
+        font-size: 0.37em;
+        margin: 0 0 5px;
+    }
+    .carousel_history-text h3 {
+        font-size: 16px;
+    }
+    .carousel_history-text p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .overflowScroll {
+        height: 350px;
+    }
+    .overflowScroll > h4 {
+        font-size: 14px;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+    .autor1 {
+        font-size: 0.55em;
+    }
+    .overflowScroll > p {
+        font-size: 0.6em;
+    }
+    .lozung{
+        font-size: 0.55em;
+    }
+
+
+    /*Доска почета*/
+    .faster_higher_stronger h2 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .photoDirector h3 {
+        font-size: 16px;
+    }
+    .doskaDirector  p {
+        font-size: 10px;
+    }
+    .section li {
+        font-size: 12px;
+    }
+    .hall_of_fame {
+        margin-top: 20px; 
+    }
+
+
+    /*Гомельстекло*/
+    .info1 p {
+       font-size: 16px;
+    }
+    .photoGlassText {
+        font-size: 11px;
+        padding-left: 2px;
+    }
+
+
+    /*Модальное окно СПОРТИВНЫЕ СОБЫТИЯ*/
+    .modal-body.news h2 {
+        font-size: 18px;
+    }
+    .modal-body.news p {
+        font-size: 14px;
+    }
+    .modal-body.news p.date {
+        left: 65%;
+        font-size: 15px;
+    }
+
+
+    /*Реклама*/
+    .main-google-adsense-left {
+        display: none;
+    }
+
+
+    /*Модальное окно ФУТБОЛ 2017*/
+    #modal_football th,
+    #modal_football td {
+        font-size: .9rem;
+    }
+    
+}

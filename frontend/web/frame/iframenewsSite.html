@@ -1,0 +1,59 @@
+<!doctype html>
+	<html lang="ru">
+	<head>
+			<meta charset="utf-8">
+			<title>Новости TUT.BY</title>
+		<style type="text/css">
+				body {
+					font-family:"Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, serif;
+					font-size:15px;
+				}
+
+				.perenos{
+					padding-left:5px;
+					padding-right:5px;
+					-moz-hyphens: auto;/*Перенос слов*/
+					-webkit-hyphens: auto;
+					-ms-hyphens: auto;
+				}
+
+				.newsSports{
+					width: 155px;
+					margin:-8px;
+				}
+				
+				a {
+					color:#1a3d73;
+					-webkit-transition: all 0.2s ease-in-out;/*Анимация для ссылок: изменение свойств при наведении курсора для разных браузеров*/
+    				-moz-transition: all 0.2s ease-in-out;
+    				-o-transition: all 0.2s ease-in-out;
+    				transition: all 0.2s ease-in-out;
+				}
+				a:hover{
+					color:#5c74d6;
+				}
+				
+			</style>
+		</head>
+
+		<body>
+        
+            
+	<div class="newsSports">
+    	<div class="perenos">
+    		<!--  Экспорт новостей TUT.BY  -->
+			<script type="text/javascript" src="http://news.tut.by/export/TUTBYExporter.js" charset="utf-8"></script>
+			<script type="text/javascript" src="http://news.tut.by/export/sport_3.js" charset="utf-8"></script>
+			<script type="text/javascript">
+				TUTBY.SetTitleStyle("Times New Roman, Times, serif",15,"#1a3d73");
+				TUTBY.SetDateStyle(true,"dd-mm-yyyy","Verdana, Arial,Helvetica, sans-serif",12,"normal","red");
+				TUTBY.SetTargetBlank();
+				TUTBY.ExportNews();
+			</script>
+        </div>
+   </div>
+<!--  Экспорт новостей TUT.BY   -->
+
+    
+    </body>
+</html>

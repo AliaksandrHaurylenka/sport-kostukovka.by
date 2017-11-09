@@ -1,0 +1,77 @@
+@media screen and (max-width: 640px) {
+    /*ШАПКА*/
+    .header_logo-left_small-display,
+    .header_logo-right_small-display {
+        display: none !important;
+    }
+    .footer__baner img {
+        width: 125px;
+        height: 40px;
+    }
+    
+    /*ЛЕВАЯ КОЛОНКА*/
+    .btn_footer {
+        font-size: 12px;
+    }
+    
+    /*Выпадающий блок Разряды*/
+    .drop-down_text h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    .linkSwiming > a ,
+    .drop-down_text span,
+    .drop-down_text p {
+        font-size: 16px;
+    }
+    .normativeSwiming td {
+        font-size: 7px;
+    }
+    
+    /*Расписание*/
+    .timetable h3 {
+        font-size: 17px;
+    }
+    .timetable p {
+        font-size: 13px;
+    }
+
+
+    /*Костюковские Лужники*/
+    .history_blockquote {
+        font-size: 0.7em;
+        margin: 0;
+    }
+    .bregnev {
+        font-size: 0.6em;
+        margin: 5px 0;
+    }
+    .carousel_history-text h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .carousel_history-text p {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .overflowScroll {
+        height: 400px;
+        margin-top: 10px;
+    }
+
+
+    /*Доска почета*/
+    .photoDirector h3 {
+        font-size: 20px;
+    }
+    .doskaDirector  p {
+        font-size: 13px;
+    }
+
+
+    /*Модальное окно ФУТБОЛ 2017*/
+    #modal_football th,
+    #modal_football td {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 320px) {
+    /*ЛЕВАЯ КОЛОНКА*/
+    .aside-left__my-nav {
+        font-size: 12px;
+    }
+    .btn_modal-menu,
+    .btn_footer {
+        font-size: 0.8rem;
+    }
+    /*Выпадающий блок Разряды*/
+    .normativeSwiming td {
+        font-size: 3px;
+    }
+    .click {
+        font-size: 12px;
+    }
+
+
+    /*Костюковские Лужники*/
+    p.history_blockquote {
+        font-size: 0.3em;
+    }
+    p.bregnev {
+        font-size: 0.25em;
+    }
+
+
+    /*Доска Почета*/
+    .doskaDirector {
+        height: 65%;
+    }
+}

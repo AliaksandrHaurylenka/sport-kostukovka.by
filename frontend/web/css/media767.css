@@ -1,0 +1,177 @@
+@media screen and (max-width: 767px){
+    /*ШАПКА*/
+    .header___nav-globe {
+        display: none;
+    }
+    .navbar-toggle {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .navbar_header-brand {
+        display: block !important;
+        height: auto;
+        padding: 6px 0 5px 20px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .container-fluid > .navbar-collapse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header__icons {
+        display: block !important;
+        bottom: 10px;
+        left: 2px;
+        position: relative;
+        padding: 8px 0 0;
+        margin-left: 0;
+    }
+    .header__icons li {
+        float: left;
+        padding-right: 5px;
+    }
+
+    /*КОНТЕНТ*/
+
+    /*Левая колонка*/
+    /*.events {
+        font-size: 13px;
+    }*/
+    .btn_modal-menu {
+        font-size: 1.4rem;
+        padding-left: 2px;
+    }
+
+    /*Основной контент*/
+    .main-content {
+        border-right: none;
+    }
+    .main-content_info p {
+        font-size: 16px;
+    }
+    .main-content_info2 p {
+        padding-bottom: 10px;
+    }
+    .main-content_info2 {
+        font-size: 0.9em;
+        height: auto;
+    }
+
+    /*Правая колонка*/
+    .aside-right {
+        display: none;
+    }
+
+    /*ФУТЕР*/
+    .footer__baner img {
+        height: 50px;
+    }
+    .menu-footer > ul > li {
+        text-align: center
+    }
+    .footer__counter div {
+        display: inline-block;
+    }
+    .footer__rights {
+        clear: both;
+    }
+    footer p {
+        margin: 0;
+    }
+    
+    /*Контент Отделения*/
+    .sportCoach img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    .main-content .sportCoach__info {
+        padding: 5px;
+    }
+    .imgDoskaPochota img {
+        display: block;
+        margin: 0 auto;
+    }
+    .infoDoskaPochota p {
+        font-size: 17px;
+    }
+    .imgDoskaPochota p {
+        font-size: 19px;
+        margin: 10px 0 0;
+    }
+    
+    /*Выпадающий блок Разряды*/
+    .linkSwiming > a ,
+    .drop-down_text span,
+    .drop-down_text p {
+        font-size: 18px;
+    }
+    .normativeSwiming td {
+        font-size: 8px;
+    }
+    
+    /*Расписание*/
+    .timetable h3 {
+        font-size: 19px;
+    }
+    .timetable p {
+        font-size: 15px;
+    }
+
+    /*Костюковские Лужники*/
+    .history_blockquote {
+        font-size: 0.8em;
+        margin: 10px 30px 10px 0;
+    }
+    .bregnev {
+        margin: 0 43px 20px 0;
+        font-size: 0.68em;   
+    }
+    .carousel_history-text h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .carousel_history-text p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .overflowScroll > h4{
+        padding: 10px;
+    }
+    .autor1 {
+        font-size: 0.7em;
+    }
+    .overflowScroll > p {
+        font-size: 0.75em;
+    }
+    .lozung{
+        font-size: 0.7em;
+    }
+
+
+    /*Доска Почета*/
+    .familyName .section > ol > li {
+        float: left;
+        margin-left: 25px;
+    }
+    .doskaDirector {
+        height: 45%;
+    }
+    
+
+
+    /*Гомельстекло*/
+    .info1 p {
+       font-size: 18px;
+    }
+    
+
+/*модальное окно*/
+.autor.paragraf p {
+    font-size: 12px;
+    padding: 2px 1%;
+}
+
+
+}

@@ -1,0 +1,18 @@
+@media screen and (max-width: 580px) {
+    
+
+    /*Модальное окно СПОРТ. СОБЫТИЯ*/
+    .modal-body.news p.date {
+        left: 60%;
+        font-size: 13px;
+    }
+    .img_big_block .glyphicon {
+        font-size: .7em;
+    }
+
+    /*Модальное окно ФУТБОЛ 2017*/
+    #modal_football th,
+    #modal_football td {
+        font-size: 1.05rem;
+    }
+}

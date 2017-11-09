@@ -1,0 +1,34 @@
+/*Модальное окно ФУТБОЛ 2017*/
+#modal_football table.table {
+	font-family: "Times New Roman", sans-serif;
+	font-size: 1.8rem;
+}
+#modal_football .modal-body P {
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.8rem;
+}
+table.table th {
+	text-align: left;
+	text-transform: uppercase;
+	vertical-align: middle !important;
+	background-color: #fff;
+}
+table.table td {
+	text-transform: uppercase;
+	font-style: italic;
+}
+.fio {
+	font-style: italic;
+	text-transform: none !important;
+}
+
+/*таблица place-table*/
+.place-table td {text-align: center;}
+.table-striped.place-table td.place {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.table-league {text-align: center;}
