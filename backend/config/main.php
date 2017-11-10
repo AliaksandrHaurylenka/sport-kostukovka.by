@@ -12,18 +12,26 @@ return [
     'language' => 'ru-RU', //язык сайта
     'modules' => [],
     'components' => [
-    	'view' => [//админ панель https://github.com/dmstr/yii2-adminlte-asset
-         'theme' => [
-             'pathMap' => [
-             	'@app/views' => '@app/views/yii2-adminlte-asset/example-views/yiisoft/yii2-app'//скопировали папку из закоментированного пути в указанный путь
-             ],
-         ],
-    	],
+      //AdminLTE https://github.com/dmstr/yii2-adminlte-asset
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                  //'@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                    '@app/views' => '@app/views/yii2-app'//скопировали папку из закоментированного пути в указанный путь
+                ],
+            ],
+        ],
     
         'request' => [
             'csrfParam' => '_csrf-backend',
-			// !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-			'cookieValidationKey' => '8pLfim-AMEohxrYfJOLthxYtTkrFVbZH',
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => '8pLfim-AMEohxrYfJOLthxYtTkrFVbZH',
+
+          /*в проектах убирается /admin
+          и пишется какое-нибудь другое имя,
+          для затруднения попасть в админ-панель из вне
+          */
+            'baseUrl' => '/sportkost',//изменить на имя пользователя
         ],
         'user' => [
             'identityClass' => 'common\models\User',

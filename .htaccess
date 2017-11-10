@@ -2,15 +2,15 @@ Options +FollowSymLinks
 IndexIgnore */*
 RewriteEngine on
  
-# if request begins with /admin remove admin and ad /backend/web/
-RewriteCond %{REQUEST_URI} ^/admin
+# if request begins with /sportkost remove sportkost and ad /backend/web/
+RewriteCond %{REQUEST_URI} ^/sportkost
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^admin\/?(.*) /backend/web/$1
+RewriteRule ^sportkost\/?(.*) /backend/web/$1
  
 # other requests add /frontend/web/$1
-RewriteCond %{REQUEST_URI} !^/(frontend/web|backend/web|admin)
+RewriteCond %{REQUEST_URI} !^/(frontend/web|backend/web|sportkost)
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
