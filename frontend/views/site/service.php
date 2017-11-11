@@ -37,7 +37,18 @@ SERVICE;
 
 
   ?>
-  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fg+5z+5c-h0+az"
+     data-ad-client="ca-pub-9327032145520335"
+     data-ad-slot="3032167381"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2 class="titlebar">Абонементная система</h2>
   <?php 
  //АБОНЕМЕНТ 5-10 ЗАНЯТИЙ
@@ -74,6 +85,17 @@ SERVICE;
 SERVICE;
     }  
   ?>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fg+5z+5c-h0+az"
+     data-ad-client="ca-pub-9327032145520335"
+     data-ad-slot="3032167381"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   
 <h2 class="titlebar">Иные виды услуг</h2>
   <?php 

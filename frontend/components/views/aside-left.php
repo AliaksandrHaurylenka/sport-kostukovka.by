@@ -39,14 +39,25 @@ AppAsset::register($this);
 
   <!-- РЕКЛАМА -->
 <div class="main-google-adsense-left">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <ins class="adsbygoogle"
       style="display:inline-block;width:120px;height:600px"
       data-ad-client="ca-pub-9327032145520335"
       data-ad-slot="7492236001"> </ins>
   <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  </script> -->
+
+  	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- asideLeft_1 -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-9327032145520335"
+	     data-ad-slot="2385300123"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 </div>
 </aside>
 

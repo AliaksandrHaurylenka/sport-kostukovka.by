@@ -1,6 +1,16 @@
-<?php $contact = "contact" ?>
-<?php if ($this->beginCache($contact, ['duration' => 3600*24*30])): ?><!--кэширование фрагмента--> 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- content_last_h2_1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9327032145520335"
+     data-ad-slot="4669872052"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2>Контакты</h2>
+
 <div class="our_pride_flex">
   
   <!--СПОРТИВНАЯ ШКОЛА-->
@@ -49,6 +59,8 @@
   </ul>
  </div>
  
+<?php $contact = "contact" ?>
+<?php if ($this->beginCache($contact, ['duration' => 3600*24*30])): ?><!--кэширование фрагмента--> 
  <div class="map">
   <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5SfjickNneKPf4DhF1E5yOaigbrfI4GB&amp;width=100%&amp;height=416&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
  </div>
