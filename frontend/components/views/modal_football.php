@@ -18,7 +18,7 @@ use yii\widgets\Pjax;
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close arcticmodal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">ФУТБОЛ 2017</h4>
       </div>
       <div class="modal-body">
@@ -68,7 +68,7 @@ use yii\widgets\Pjax;
         <p>С уважением,</p>
          <p>Администрация</p>
          <p>ФОЦ "КОСТЮКОВКА-СПОРТ"</p>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-default arcticmodal-close" data-dismiss="modal">Закрыть</button>
       </div>
     </div>
   </div>

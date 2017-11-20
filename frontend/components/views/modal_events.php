@@ -28,7 +28,7 @@ $events = Events::find()
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close arcticmodal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">Спортивные события</h4>
       </div>
       <div class="modal-body news">
@@ -63,7 +63,7 @@ $events = Events::find()
          <p>С уважением,</p>
          <p>Заместитель директора СДЮШОР</p>
          <p><a href="/swiming#veretennikov">Веретенников В.В.</a></p>
-         <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+         <button type="button" class="btn btn-default arcticmodal-close" data-dismiss="modal">Закрыть</button>
       </div>
     </div>
   </div>

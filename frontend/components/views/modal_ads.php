@@ -24,11 +24,12 @@ $ads = Ads::find()
 
 <!-- МОДАЛЬНОЕ ОКНО "ОБЪЯВЛЕНИЯ" -->
 <!--noindex-->
+<!-- <div class="modal fade" id="modal_ads" tabindex="-1" role="dialog"> -->
 <div class="modal fade" id="modal_ads" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-dialog modal-lg news-events" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close arcticmodal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">Объявления</h4>
       </div>
       <div class="modal-body news">
@@ -54,7 +55,7 @@ $ads = Ads::find()
       	<p>С уважением,</p>
          <p>Администрация</p>
          <p>ФОЦ "КОСТЮКОВКА-СПОРТ"</p>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-default arcticmodal-close" data-dismiss="modal">Закрыть</button>
       </div>
     </div>
   </div>
