@@ -45,10 +45,13 @@ function fancybox($group){
 function sport_section($coach){
   fancybox('coach');
   foreach ($coach as $key => $img) {
-    echo "<a id='$img[name_en]'></a>";
+    echo '<a id="$img[name_en]"></a>';
     echo "<div class='row sportCoach'>";
       echo "<div class='col-sm-3'>";
-        echo yii\helpers\Html::a(yii\helpers\Html::img("/frontend/web/images/coach/$img[name_en].jpg", ['alt' => $img[name]]), "/frontend/web/images/coach/$img[name_en].jpg", ['rel' => 'coach', 'title' => $img[name]]);
+        echo yii\helpers\Html::a(yii\helpers\Html::img("/frontend/web/images/coach/$img[name_en].jpg",
+                ['alt' => $img['name']]),
+            "/frontend/web/images/coach/$img[name_en].jpg",
+            ['rel' => 'coach', 'title' => $img['name']]);
       echo "</div>";
       echo "<p class='col-sm-9 sportCoach__info'><span>$img[name]</span> $img[description]</p>";
     echo "</div>";
@@ -61,7 +64,10 @@ function sport_section_archive($coach_archive){
     echo "<a id='$img[name_en]'></a>";
     echo "<div class='row sportCoach'>";
       echo "<div class='col-sm-3'>";
-        echo yii\helpers\Html::a(yii\helpers\Html::img("/frontend/web/images/coach/$img[name_en].jpg", ['alt' => $img[name]]), "/frontend/web/images/coach/$img[name_en].jpg", ['rel' => 'coach_archive', 'title' => $img[name]]);
+        echo yii\helpers\Html::a(yii\helpers\Html::img("/frontend/web/images/coach/$img[name_en].jpg",
+                ['alt' => $img['name']]),
+            "/frontend/web/images/coach/$img[name_en].jpg",
+            ['rel' => 'coach_archive', 'title' => $img['name']]);
       echo "</div>";
       echo "<p class='col-sm-9 sportCoach__info'><span>$img[name]</span> $img[description]</p>";
     echo "</div>";
@@ -74,7 +80,10 @@ function our_pride($our_pride){
     echo '<div class="col-sm-6 photoDoskaPochota">';
       echo '<div class="row my-flex-container_25 photoDoskaPochota_margin">';
         echo '<div class="col-xs-4 imgDoskaPochota">';
-          echo yii\helpers\Html::a(yii\helpers\Html::img("/frontend/web/images/ourpride/$img[name_en].jpg", ['alt'=> $img[name]]), "/frontend/web/images/ourpride/$img[name_en].jpg", ['rel' => 'athletes', 'title' => $img[name]]);
+          echo yii\helpers\Html::a(yii\helpers\Html::img("/frontend/web/images/ourpride/$img[name_en].jpg",
+                  ['alt'=> $img['name']]),
+              "/frontend/web/images/ourpride/$img[name_en].jpg",
+              ['rel' => 'athletes', 'title' => $img['name']]);
           echo "<p>$img[name]</p>";
         echo '</div>';
         echo '<div class="col-xs-8 infoDoskaPochota my-flex-container_40">';

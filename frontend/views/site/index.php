@@ -10,12 +10,9 @@ fancybox('fancybox');
 	<div class="carousel-indicators-wrap">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel" data-slide-to="0" class="active"></li>
-			<?php
-				foreach ($carousel as $key => $indicator)
-				{
-					echo '<li data-target="#carousel" data-slide-to="'.$indicator[id_carousel].'"></li>';
-				}
-			?>
+      <?php foreach ($carousel as $key => $indicator): ?>
+        <li data-target="#carousel" data-slide-to="<?= $indicator[id_carousel]; ?>"></li>
+      <?php endforeach; ?>
 		</ol>
 	</div>
 
@@ -24,14 +21,11 @@ fancybox('fancybox');
 		<div class="item active">
 			<img src="/frontend/web/images/main-photo/face2.jpg" alt="Спорткомплекс">
 		</div>
-		<?php
-			foreach ($carousel as $key => $img)
-			{
-				echo "<div class='item'>";
-					echo "<img src='/frontend/web/images/main-photo/$img[photo_name]' alt='$img[alt]'>";
-				echo "</div>";
-			}
-		?>
+    <?php foreach ($carousel as $key => $img): ?>
+      <div class='item'>
+        <img src='/frontend/web/images/main-photo/<?= $img[photo_name]; ?>' alt='<?=$img[alt]; ?>'>
+      </div>
+    <?php endforeach; ?>
 	</div>
 
 		<!-- Controls -->
@@ -45,7 +39,7 @@ fancybox('fancybox');
 		</a>
 </div>
 
-		<!--СПОРТИВНЫЕ СООРУЖЕНИЯ-->
+<!--СПОРТИВНЫЕ СООРУЖЕНИЯ-->
 <?php $main = 'main'; ?>
 <?php if ($this->beginCache($main, ['duration' => 3600*24*30])): ?><!--кэширование фрагмента-->
     <div class="row main-content_info">
@@ -111,16 +105,14 @@ fancybox('fancybox');
 <?php $this->endCache(); ?>
 <?php endif; ?>
 
-    <!--СПОРТИВНЫЕ ОТДЕЛЕНИЯ-->
-    <div class="col-sm-12">
-        <?php
-          fancybox('division');
-					foreach ($main_sport_section as $key => $img)
-					{
-						echo "<div class='col-sm-4 main-content_info2'>";
-              				echo Html::a(Html::img("/frontend/web/images/main-photo/$img[photo]", ['alt'=> $img[alt]]), "/frontend/web/images/main-photo/$img[photo]", ['rel' => 'division', 'title' => $img[alt]]);
-							echo "<p>$img[description]</p>";
-        				echo "</div>";
-					}
-				?>
+<!--СПОРТИВНЫЕ ОТДЕЛЕНИЯ-->
+<div class="col-sm-12">
+  <?php fancybox('division'); foreach ($main_sport_section as $key => $img): ?>
+    <div class='col-sm-4 main-content_info2'>
+      <a href="/frontend/web/images/main-photo/<?= $img['photo']; ?>" title="<?= $img['alt']; ?>" rel="division">
+        <img src="/frontend/web/images/main-photo/<?= $img['photo']; ?>" alt="<?= $img['alt']; ?>">
+      </a>
+      <p><?= $img['description']; ?></p>
     </div>
+  <?php endforeach; ?>
+</div>
