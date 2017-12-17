@@ -240,19 +240,24 @@ section {
 		color: #1a3d73;
 		margin: 0;
 }
-.aside-left__my-nav > li span {
+/* .aside-left__my-nav > li span {
 		position: absolute;
 		right: 2px;
-}
+} */
 .nav-stacked > li + li {
 		margin-top: 0;
 }
 .nav-tabs > li > a {
 		border-radius: 0;
 }
-.events a {
+.events li > a {
 		text-transform: uppercase;
-		color: #1a3d73;
+		color: #fff;
+		padding: 0;
+}
+.events li > a:hover,
+.events li > a:visited {
+	background-color: inherit;
 }
 .btn_modal-menu {
 		border-radius: 0;

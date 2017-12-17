@@ -1,0 +1,10 @@
+Wordpress news.sport-kostukovka.by
+
+DB: sportkos_news.sport;
+User: news.sport; на хостинге sportkos_news
+Pass: ViDaPewAJiD2;
+
+Админка:
+User: Gavrilenko;
+Pass: ZHWPob23Yz$Gf8)qhpKs6I0s;
+email: mail@sport-kostukovka.by;
