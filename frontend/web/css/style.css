@@ -240,10 +240,6 @@ section {
 		color: #1a3d73;
 		margin: 0;
 }
-/* .aside-left__my-nav > li span {
-		position: absolute;
-		right: 2px;
-} */
 .nav-stacked > li + li {
 		margin-top: 0;
 }

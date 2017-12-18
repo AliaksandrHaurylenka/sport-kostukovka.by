@@ -31,8 +31,8 @@ AppAsset::register($this);
   ?>
 
   <ul class="nav nav-pills nav-stacked aside-left__my-nav events">
-  <!-- <ul class="nav nav-pills nav-stacked"> -->
-  	<li class="btn btn-primary btn_modal-menu"><a href="http://news.sport-kostukovka" target="_blank">НОВОСТИ</a></li>
+  	<li class="btn btn-primary btn_modal-menu"><a href="http://news.sport-kostukovka.by/category/objavlenija/" target="_blank">ОБЪЯВЛЕНИЯ</a></li>
+  	<li class="btn btn-primary btn_modal-menu"><a href="http://news.sport-kostukovka.by/category/sportivnye-sobytija/" target="_blank">СПОРТ. СОБЫТИЯ</a></li>
     <!-- <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_ads">ОБЪЯВЛЕНИЯ</li> -->
     <!-- <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_events">СПОРТ. СОБЫТИЯ</li> -->
     <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_feedback">ОБРАТНАЯ СВЯЗЬ</li>
