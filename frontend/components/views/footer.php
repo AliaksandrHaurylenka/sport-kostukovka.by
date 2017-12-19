@@ -60,7 +60,7 @@ AppAsset::register($this);
 			        ['label' => 'Контакты', 'url' => ['/site/contact']],
 			        
 			        '<li class="btn btn-primary btn_footer" data-toggle="modal" data-target="#modal_ads">ОБЪЯВЛЕНИЯ</li>',
-			        '<li class="btn btn-primary btn_footer" data-toggle="modal" data-target="#modal_events">СПОРТ. СОБЫТИЯ</li>',
+			        '<li class="btn btn-primary btn_footer"><a href="http://news.sport-kostukovka.by/category/sportivnye-sobytija/">СПОРТ. СОБЫТИЯ</a></li>',
 			        '<li class="btn btn-primary btn_footer" data-toggle="modal" data-target="#modal_feedback">ОБРАТНАЯ СВЯЗЬ</li>',
 			        '<li class="btn btn-success btn_footer" data-toggle="modal" data-target="#modal_football">ФУТБОЛ 2017</li>',
 				],
