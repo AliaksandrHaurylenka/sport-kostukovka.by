@@ -31,25 +31,14 @@ AppAsset::register($this);
   ?>
 
   <ul class="nav nav-pills nav-stacked aside-left__my-nav events">
-  	<li class="btn btn-primary btn_modal-menu"><a href="http://news.sport-kostukovka.by/category/objavlenija/" target="_blank">ОБЪЯВЛЕНИЯ</a></li>
-  	<li class="btn btn-primary btn_modal-menu"><a href="http://news.sport-kostukovka.by/category/sportivnye-sobytija/" target="_blank">СПОРТ. СОБЫТИЯ</a></li>
-    <!-- <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_ads">ОБЪЯВЛЕНИЯ</li> -->
-    <!-- <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_events">СПОРТ. СОБЫТИЯ</li> -->
+    <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_ads">ОБЪЯВЛЕНИЯ</li>
+    <li class="btn btn-primary btn_modal-menu"><a href="http://news.sport" target="_blank">СПОРТ. СОБЫТИЯ</a></li>
     <li class="btn btn-primary btn_modal-menu" data-toggle="modal" data-target="#modal_feedback">ОБРАТНАЯ СВЯЗЬ</li>
     <li class="btn btn-success btn_modal-menu" data-toggle="modal" data-target="#modal_football">ФУТБОЛ 2017</li>
   </ul>
 
   <!-- РЕКЛАМА -->
 <div class="main-google-adsense-left">
-  <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <ins class="adsbygoogle"
-      style="display:inline-block;width:120px;height:600px"
-      data-ad-client="ca-pub-9327032145520335"
-      data-ad-slot="7492236001"> </ins>
-  <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-  </script> -->
-
   	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- asideLeft_1 -->
 	<ins class="adsbygoogle"
