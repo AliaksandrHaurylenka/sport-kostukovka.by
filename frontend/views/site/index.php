@@ -19,7 +19,7 @@ fancybox('fancybox');
 		<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img src="/frontend/web/images/main-photo/face2.jpg" alt="Спорткомплекс">
+			<img src="/frontend/web/images/main-photo/face6.jpg" alt="Спорткомплекс">
 		</div>
     <?php foreach ($carousel as $key => $img): ?>
       <div class='item'>
