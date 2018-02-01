@@ -66,6 +66,7 @@
                   <div class="col-xs-7 form-group has-feedback">
                       <input type="text" name="captcha" maxlength="6" required="required" id="captcha"
                              class="form-control captcha" placeholder="Код, показанный на изображении" autocomplete="off" value="">
+                      <span class="glyphicon form-control-feedback"></span>
                   </div>
                 </div>
 

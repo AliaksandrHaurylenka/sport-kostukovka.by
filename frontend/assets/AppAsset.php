@@ -16,12 +16,14 @@ class AppAsset extends AssetBundle
 		'css/style.css',
 		'css/media.css',
 		'feedback/css/main.css',
+		'feedback/vendors/jgrowl/jquery.jgrowl.min.css',
 	];
 	public $js = [
 		'arcticmodal/jquery.arcticmodal-0.3.min.js',
 		'//yandex.st/jquery/cookie/1.0/jquery.cookie.min.js', //cookie
 		'js/myScripts.js',
 		'feedback/js/main.js',
+		'feedback/vendors/jgrowl/jquery.jgrowl.min.js',
 	];
     public $depends = [
         'yii\web\YiiAsset',

@@ -167,16 +167,19 @@ if ($data['result'] == 'success') {
     $mail = new PHPMailer;
 
     $mail->isSMTP();
-    //$mail->SMTPDebug = 2;
-    //$mail->Host = 'smtp.mail.ru';
     $mail->Host = 'mail.sport-kostukovka.by';
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';
     $mail->SMTPAuth = true;
-    /*$mail->Username = "goric0312@mail.ru";
-    $mail->Password = "integralrimmana";*/
     $mail->Username = "mail@sport-kostukovka.by";
     $mail->Password = "+$)MEZY5iq5B";
+
+    /*$mail->Host = 'smtp.gmail.com';
+    $mail->Port = 587;
+    $mail->SMTPSecure = 'tls';
+    $mail->SMTPAuth = true;
+    $mail->Username = "aliaksandr.haurylenka@gmail.com";
+    $mail->Password = "integralrimmana";*/
     
     $mail->CharSet = 'UTF-8';
     $mail->IsHTML(true);  // формат HTML
@@ -184,14 +187,13 @@ if ($data['result'] == 'success') {
     $mail->setFrom(MAIL_FROM, $fromName);
     $mail->Subject = '=?UTF-8?B?'.base64_encode(MAIL_SUBJECT).'?=';
     $mail->Body = $bodyMail;
-    $mail->addAddress(MAIL_ADDRESS);
-
-    // прикрепление файлов к письму
-    if (isset($attachments)) {
-        foreach ($attachments as $attachment) {
-            $mail->addAttachment($attachment);
-        }
+    // $mail->addAddress(MAIL_ADDRESS);
+    foreach($bcc as $mail_list)
+    { 
+      $mail->AddBCC($mail_list); 
     }
+    $mail->addCustomHeader('Precedence', 'bulk');
+
 
     // отправляем письмо
     if (!$mail->send()) {
