@@ -12,7 +12,7 @@ class FeedbackWidget extends Widget{
 
 		public function run(){
 				ob_get_clean();
-				return $this->render('feedback');
+				return $this->render('feedback1');
 		}
 
 } 
