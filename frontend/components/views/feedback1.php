@@ -1,3 +1,17 @@
+<?php
+//Тестирование - добавление случайной строки в сообщение
+function generatePassword($length = 20)
+{
+  $chars = 'abdefhiknrstyzABDEFGHKNQRSTYZ23456789';
+  $numChars = strlen($chars);
+  $string = '';
+  for ($i = 0; $i < $length; $i++) 
+  {
+    $string .= substr($chars, rand(1, $numChars) - 1, 1);
+  }
+  return $string;
+}
+?>
 <!-- Модальное окно "ОБРАТНАЯ СВЯЗЬ" -->
 <!--noindex-->
 <div class="modal fade" id="modal_feedback" tabindex="-1" role="dialog">
@@ -50,7 +64,7 @@
                     <label for="message" class="control-label">Сообщение (не менее 20 символов)</label>
                     <textarea id="message" name="message" class="form-control"
                               rows="5" minlength="20"
-                              maxlength="500" required="required"></textarea>
+                              maxlength="500" required="required"><?= generatePassword(30); ?></textarea>
                 </div>
 
                 <!-- Капча -->
@@ -64,25 +78,15 @@
                   </div>
                  
                   <div class="col-xs-7 form-group has-feedback">
-                      <input type="text" name="captcha" maxlength="6" required="required" id="captcha"
-                             class="form-control captcha" placeholder="Код, показанный на изображении" autocomplete="off" value="">
-                      <span class="glyphicon form-control-feedback"></span>
+                    <label for="captcha" class="control-label">Код с картинки</label>
+                    <input type="text" name="captcha" maxlength="6" required="required" id="captcha"
+                           class="form-control captcha" placeholder="*******" autocomplete="off" value="">
+                    <span class="glyphicon form-control-feedback"></span>
                   </div>
                 </div>
 
-                <!-- Пользовательское солашение -->
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" name="agree"> Нажимая кнопку, я принимаю условия
-                        <a href="#">Пользовательского соглашения</a> и даю своё согласие на обработку моих
-                        персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О
-                        персональных
-                        данных».
-                    </label>
-                </div>
-
                 <!-- Кнопка для отправки формы -->
-                <button type="submit" class="btn btn-primary pull-right" disabled="disabled">Отправить
+                <button type="submit" class="btn btn-primary pull-right">Отправить
                     сообщение
                 </button>
 

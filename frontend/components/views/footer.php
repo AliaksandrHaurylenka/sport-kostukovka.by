@@ -73,7 +73,7 @@ AppAsset::register($this);
     <!-- АВТОРСКИЕ ПРАВА, СЧЕТЧИКИ -->
     <div class="col-sm-3 text-center footer__rights">
       <p>Александр Гавриленко<br>
-        <a href="#" class="modal_clik_15">mail@sport-kostukovka.by</a><br>
+        <a href="#" data-toggle="modal" data-target="#modal_feedback">mail@sport-kostukovka.by</a><br>
         <a href="/backend/web/" target="_blank" class="">Sign up</a>
       </p>
       <p>&copy; 2014 - <?php echo strftime('%Y') ?></p>
