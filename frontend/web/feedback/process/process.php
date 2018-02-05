@@ -166,20 +166,16 @@ if ($data['result'] == 'success') {
     // отправляем письмо с помощью PHPMailer
     $mail = new PHPMailer;
 
-    /*$mail->isSMTP();
+    //закомментировать на хостинге
+    $mail->isSMTP();
     $mail->Host = 'mail.sport-kostukovka.by';
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';
     $mail->SMTPAuth = true;
     $mail->Username = "mail@sport-kostukovka.by";
-    $mail->Password = "+$)MEZY5iq5B";*/
-
-    /*$mail->Host = 'smtp.gmail.com';
-    $mail->Port = 587;
-    $mail->SMTPSecure = 'tls';
-    $mail->SMTPAuth = true;
-    $mail->Username = "aliaksandr.haurylenka@gmail.com";
-    $mail->Password = "integralrimmana";*/
+    $mail->Password = "+$)MEZY5iq5B";
+    //===========================
+    
     
     $mail->CharSet = 'UTF-8';
     $mail->IsHTML(true);  // формат HTML
