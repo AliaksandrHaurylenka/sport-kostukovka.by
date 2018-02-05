@@ -68,27 +68,25 @@ function generatePassword($length = 20)
                 </div>
 
                 <!-- Капча -->
-                <div class="row captcha">
-                  
-                  <img class="col-xs-3 img-captcha" src="/feedback/captcha/captcha.php"
+                <div class="captcha">
+                  <div class="refresh-captcha">
+                    <img class="img-captcha img-responsive" src="/feedback/captcha/captcha.php"
                        data-src="/feedback/captcha/captcha.php">
-                  
-                  <div class="col-xs-2 btn btn-default refresh-captcha"><i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>
-                      Обновить
+                    <span>* Нажмите на картинку, чтобы обновить.</span>
                   </div>
-                 
-                  <div class="col-xs-7 form-group has-feedback">
+                  <div class="form-group has-feedback">
                     <label for="captcha" class="control-label">Код с картинки</label>
                     <input type="text" name="captcha" maxlength="6" required="required" id="captcha"
                            class="form-control captcha" placeholder="*******" autocomplete="off" value="">
                     <span class="glyphicon form-control-feedback"></span>
                   </div>
                 </div>
-
-                <!-- Кнопка для отправки формы -->
+                
+                 <!-- Кнопка для отправки формы -->
                 <button type="submit" class="btn btn-primary pull-right">Отправить
                     сообщение
                 </button>
+     
 
                 <!-- Индикация загрузки данных формы на сервер -->
                 <div class="clearfix"></div>
