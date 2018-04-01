@@ -8,3 +8,12 @@ Pass: ViDaPewAJiD2;
 User: Gavrilenko;
 Pass: ZHWPob23Yz$Gf8)qhpKs6I0s;
 email: goric0312@mail.ru;
+
+
+
+http://news.sport-kostukovka.by/wp-admin/install.php
+
+===========
+Sprinthost
+login: AliaksandrHaurylenka
+pass: amdemiatag

@@ -34,6 +34,6 @@ phpunit.phar
 # vagrant runtime
 /.vagrant
 
-#игнорируем файлы Codelobster
-Спорт-Костюковка.Yii2-advanced.clpprj
-Спорт-Костюковка.Yii2-advanced_clcs.csprj
+#игнорируем файлы
+/frontend/wp_pass.txt
+/frontend/Doc.docx
