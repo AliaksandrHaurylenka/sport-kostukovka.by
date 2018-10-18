@@ -12,7 +12,7 @@ use yii\bootstrap\Nav;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
-
+//phpinfo();
 
 AppAsset::register($this);
 ?>

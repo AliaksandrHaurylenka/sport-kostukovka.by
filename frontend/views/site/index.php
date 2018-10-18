@@ -11,7 +11,7 @@ fancybox('fancybox');
 		<ol class="carousel-indicators">
 			<li data-target="#carousel" data-slide-to="0" class="active"></li>
       <?php foreach ($carousel as $key => $indicator): ?>
-        <li data-target="#carousel" data-slide-to="<?= $indicator[id_carousel]; ?>"></li>
+        <li data-target="#carousel" data-slide-to="<?= $indicator['id_carousel']; ?>"></li>
       <?php endforeach; ?>
 		</ol>
 	</div>
@@ -23,7 +23,7 @@ fancybox('fancybox');
 		</div>
     <?php foreach ($carousel as $key => $img): ?>
       <div class='item'>
-        <img src='/frontend/web/images/main-photo/<?= $img[photo_name]; ?>' alt='<?=$img[alt]; ?>'>
+        <img src='/frontend/web/images/main-photo/<?= $img['photo_name']; ?>' alt='<?=$img['alt']; ?>'>
       </div>
     <?php endforeach; ?>
 	</div>

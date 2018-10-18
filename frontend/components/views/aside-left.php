@@ -37,6 +37,21 @@ AppAsset::register($this);
     <li class="btn btn-success btn_modal-menu" data-toggle="modal" data-target="#modal_football">ФУТБОЛ 2017</li>
   </ul>
 
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <?php echo Html::a(Html::img('/frontend/web/images/biznes_global№1.jpg', ['alt'=>'Работа для вас', 'class' => 'img-responsive']), 'https://www.worktoall.com/375293487688/personal/biz01', ['target' => '_blank']); ?>
+    </div>
+    
+    <div class="item">
+      <?php echo Html::a(Html::img('/frontend/web/images/wellness.jpg', ['alt'=>'Витаминный комплекс Wellness', 'class' => 'img-responsive']), 'https://www.worktoall.com/375293487688/personal/biz01', ['target' => '_blank']); ?>
+    </div>
+  </div>
+
+</div>
+
   <!-- РЕКЛАМА -->
 <div class="main-google-adsense-left">
   	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
