@@ -51,8 +51,8 @@ $events = Events::find()
               
               <!-- Блок с уменьшенными фото -->
 	            <div class="photo_events my-flex-container_15">
-      					<?= $result->photo; ?>
-				      </div>
+                    <?= $result->photo; ?>
+                </div>
 	            
 	            <?= $result->text_events; ?> 
 	        <?php endforeach; ?>

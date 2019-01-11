@@ -44,6 +44,7 @@ $ads = Ads::find()
               ?>  
             </p>
             <!-- КОНТЕНТ -->
+            <?php fancybox('ads'); ?>
             <?= $result->text_ads; ?> 
         <?php endforeach; ?>
         <?= LinkPager::widget(['pagination' => $pagination, 'options' => ['class' => 'pagination'], 'linkOptions' => ['data' => ['pjax' => true]]]) ?>

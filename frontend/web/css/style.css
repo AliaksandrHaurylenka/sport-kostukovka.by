@@ -930,6 +930,11 @@ p.date {
     cursor: pointer;
 }
 
+/*Модальное окно Объявления*/
+.photo_ads{
+	margin-bottom: 1rem;
+}
+
 /*цифры навигации*/
 ul.pages {
 		list-style: none;
